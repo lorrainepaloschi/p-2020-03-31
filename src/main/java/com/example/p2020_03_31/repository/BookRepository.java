@@ -12,13 +12,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class BookRepository {
 
-    public ArrayList <Book> al = ArrayList<Book>();
+    public ArrayList <Book> al = ArrayList <Book>();
 
     public BookRepository(){
        
     }
 
-    public ArrayList setBook (Book book){
+    public ArrayList<Book> setBook(Book book) {
         al.add(book);
     }
     
